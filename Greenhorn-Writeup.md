@@ -1,10 +1,12 @@
 ### Hack The Box - Greenhorn Walkthrough
+   ![GreenHorn](https://github.com/user-attachments/assets/e048d7bb-4189-48fa-adef-01d05c8a9589)
 
 #### Step 1: Initial Scanning
 - **Target IP:** 10.10.11.136
 - **Run an Nmap scan to discover open ports:**
   ```bash
   nmap -sC -sV -oN greenhorn_nmap 10.10.11.136
+
   ```
 - **Results show:**
   - **Port 22 (SSH):** Open.
@@ -49,3 +51,4 @@
 #### Step 7: Capture the Flags
 - **User Flag:** Located in the user’s home directory.
 - **Root Flag:** Located in the root directory.
+- https://www.hackthebox.com/achievement/machine/2008245/617
